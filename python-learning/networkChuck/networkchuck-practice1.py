@@ -24,7 +24,7 @@ print("I am Melt the Sun\n" * 100)
 #import time
 
 #for _ in range(1000):
-   # print("MELT THE SUN \n" + "Wigger")
+   # print("MELT THE SUN \n" + "SPIN THE WHEEL")
     #time.sleep(0.1)  # 10ms delay
 
 #import time

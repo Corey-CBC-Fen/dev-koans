@@ -14,7 +14,7 @@ print("I am Carbine C\nNo I'M Carbine C\nDang nabbit, I'm Melt the Sun\n")
 
 def melt_the_sun():
     for _ in range(1000):  # Start small for testing
-        print("MELT THE SUN\nWIGGER")
+        print("MELT THE SUN\nSPIN THE WHEEL")
         time.sleep(0.1)
 
 def say_bitch():
