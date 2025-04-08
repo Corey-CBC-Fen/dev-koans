@@ -13,6 +13,14 @@ print(""" Piss poop
 
 print("I am Carbine C \n" + "No I'M Carbine C \n" + "Dang nabbit, I'm Melt the Sun \n")
 
+
+print("I am Melt the Sun\n" * 100)
+
+
+
+
+
+
 #import time
 
 #for _ in range(1000):
