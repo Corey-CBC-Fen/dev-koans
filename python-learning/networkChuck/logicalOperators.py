@@ -6,10 +6,11 @@ print("Hello welcome to Carbine C Coffee!!!\n")
 
 name = input("What is your name?:\n")
 
-if name == "RZA" or name == "Judy":
+if name == "RZA" or name == "Scooter" or name == "Loki":
     evil_status = input("Are you evil?\n")
-    if evil_status =="Yes":
-      print("GET THE FUCK OUT OF HERE YOU GINGER! NO MANGY HOUSE CATS ALLOWED!!")
+    goodDeeds = int(input ("How many good deeds have you done today? \n"))
+    if evil_status =="Yes" and goodDeeds < 4  :
+      print("GET THE FUCK OUT OF HERE " + name +  "! NO MANGY HOUSE CATS ALLOWED!!")
       exit()
     else:
        print("\nHmmm...\nI guess you can order, I got my eyes on you\n")

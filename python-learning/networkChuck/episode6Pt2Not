@@ -1,0 +1,9 @@
+print("Hello! Welcome to Hell!")
+
+name = input("What's your name, tarnished?\n")
+
+#if not name == "Ben":
+if name != "Ben": #these both do the same thing 
+    print("Get out of here!")
+else:
+    print("Come on in!")
